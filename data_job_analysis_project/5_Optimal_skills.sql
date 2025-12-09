@@ -1,9 +1,10 @@
 /*
-Answer: What are the most optimal skills to learn (aka it's in high demand and a high-paying skill)?
-- Identify skills in high demand and associated with high average salaries for Data Analyst roles
-- Concentrates on remote positions with specified salaries
-- Why? Targets skills that offer job security (high demand) and financial benefits (high salaries),
-  offering strategic insights for career development in data analysis
+Question: What are the most advantageous skills to develop?
+
+- Identify skills that exhibit both high employer demand and high average salary levels.
+- Focus exclusively on remote positions with specified compensation ranges.
+
+Objective: To pinpoint the skills offering the strongest combination of market relevance, professional resilience, and financial return.
 */
 
 WITH skills_demand AS (
@@ -59,7 +60,7 @@ LIMIT
     30;
 
 /*
-rewriting this same query more concisely
+Rewrite this query in a more concise and professionally structured form
 
 SELECT
     skills_dim.skill_id,

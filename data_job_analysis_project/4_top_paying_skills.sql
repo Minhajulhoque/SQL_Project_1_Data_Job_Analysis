@@ -1,9 +1,10 @@
 /*
-Answer: What are the top skills based on salary?
-- Look at the average salary associated with each skill for Data Analyst positions
-- Focuses on roles with specified salaries, regardless of location
-- Why? It reveals how different skills impact salary levels for Data Analysts and
-  helps identify the most financially rewarding skills to acquire or improve
+Question: What are the highest-value skills based on salary impact?
+
+- Compute the average salary associated with each skill across Data Analyst listings.
+- Restrict analysis to roles with disclosed compensation.
+
+Objective: To assess the salary-enhancing effect of specific skills and identify competencies associated with elevated earning potential.
 */
 
 SELECT 
@@ -26,11 +27,11 @@ ORDER BY
 LIMIT 30;
 
 /*
-/*
-Here's a breakdown of the results for top paying skills for Data Analysts:
-- High Demand for Big Data & ML Skills: Top salaries are commanded by analys
-- Software Development & Deployment Proficiency: Knowledge in development an
-- Cloud Computing Expertise: Familiarity with cloud and data engineering too
+Key Insights on Salary-Differentiating Skills
+
+- Advanced analytics, big data, and machine learning expertise are strongly correlated with top-tier compensation.
+- Software development and deployment capabilities elevate both role complexity and salary potential.
+- Cloud technologies and modern data engineering platforms demonstrate a consistent association with higher remuneration.
 
 [
   {

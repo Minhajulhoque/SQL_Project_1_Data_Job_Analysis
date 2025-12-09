@@ -1,9 +1,10 @@
 /* 
-Question: What skills are required for the top-paying data analyst jobs?
-- Use the top 10 highest-paying Data Analyst jobs from first query
-- Add the specific skills required for these roles
-- Why? It provides a detailed look at which high-paying jobs demand certain skills,
-  helping job seekers understand which skills to develop that align with top salaries
+Question: What skills are required for the top-paying Data Analyst positions?
+
+- Use the top ten highest-paying roles identified in Question 1.
+- Extract and list the specific technical and analytical skills required for each role.
+
+Objective: To outline the competency profile most closely associated with premium compensation in the field.
 */
 
 WITH top_paying_jobs AS (
@@ -37,21 +38,19 @@ ORDER BY
     salary_year_avg DESC;
 
 /*
-1.The Essential Core (100% to 75%)
-SQL (100%): Every single top-paying role requires SQL. This confirms it is the non-negotiable foundation for data analysis, necessary for querying, manipulating, and managing data.
+Skills Summary (Analytical Findings)
 
-Python (87.5%): Python is the dominant programming language, required by almost 9 out of 10 roles. This highlights the need for advanced analytical scripting, automation, and handling large datasets.
+# Core Competencies (Essential Range: 100%–75%)
 
-Tableau (75.0%): Tableau is the leading visualization tool, required by 3 out of 4 roles. Proficiency in translating data into compelling visual stories is crucial.
+- SQL (100%): Universally required; fundamental for data querying, transformation, and database management.
+- Python (87.5%): Predominant programming requirement, essential for analytical automation, scripting, and large-scale data handling.
+- Tableau (75%): Primary visualization platform, critical for dashboard development and data storytelling.
 
-2.Supporting Tools & Technologies (50% and below)
-R (50.0%): While Python is dominant, R is still a strong requirement for half of the roles, suggesting a need for statistical modeling and specific analytical libraries.
-
-Cloud/Warehouse: Snowflake (37.5%) and AWS (25.0%) appear frequently, indicating that top data analysts are expected to work with modern cloud-based data warehouses and infrastructure.
-
-Programming Ecosystem: Libraries like Pandas (37.5%) and Numpy (25.0%) reinforce the demand for practical data manipulation skills within the Python environment.
-
-Project Management & Collaboration: Jira, Confluence, and Atlassian tools (all at 25.0%) show that these high-level roles require proficiency in development lifecycle management and team collaboration.
+# Complementary Technologies (50% and Below)
+- R (50%): Frequently requested for statistical modeling and advanced quantitative analysis.
+- Cloud and Warehousing Tools: Snowflake (37.5%) and AWS (25%) indicate increasing reliance on cloud-based data ecosystems.
+- Python Libraries: Pandas (37.5%) and NumPy (25%) underscore the importance of robust data manipulation skills.
+- Project and Collaboration Tools: Jira, Confluence, and related Atlassian systems (25%) reflect expectations for structured workflow and cross-team coordination.
 
 [
   {
