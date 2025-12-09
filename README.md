@@ -65,6 +65,7 @@ LIMIT 10;
 - **Variety of Job Titles:** Positions span a range of roles, from Data Analyst to Director of Analytics, demonstrating the breadth of responsibilities and specializations available in the data analytics domain.
 
 ![Top Paying Jobs](assets\top_paying_positions.png)
+
 *Bar graph illustrating the top 10 highest salaries for data analysts, generated from SQL query results using Gemini.*
 
 #### 2 Top 10 Most In-Demand Skills & Top 10 Skills by Associated Salary
@@ -109,9 +110,11 @@ ORDER BY
 - **Tool Diversity:** The list includes a mix of programming languages (Python, R, Go), databases/big data (SQL, Snowflake, Hadoop), and visualization tools (Tableau, Power BI), highlighting the multi-faceted nature of these high-level data positions.
 
 ![Top 10 in-demand skills](assets\Code_Generated_Image_2.png)
+
 *Bar graph illustrating the top 10 in-demand skills, generated from SQL query results using Gemini.*
 
 ![Top 10 Skills by Associated Salary](assets\Code_Generated_Image.png)
+
 *Bar graph illustrating the top 10 skills by associated salary, generated from SQL query results using Gemini.*
 
 
